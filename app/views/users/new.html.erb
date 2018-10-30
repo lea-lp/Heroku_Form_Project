@@ -1,1 +1,49 @@
 <h1>NEW</h1>
+
+<!--
+#USERNAME............................................................................................
+<form action="/users" method="POST">
+ <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+ 1) Username : <br>
+ <input type="text" name="nom_du_champ">
+ <input type="submit" value="submit">
+</form>
+--!>
+
+<!--
+#TAG............................................................................................
+<%= form_tag('/users', method: :submit) %>
+
+      <%= label_tag 'Username' %>
+      <%= text_field_tag 'username' %>
+      <br /> <br />
+
+      <%= label_tag 'Email' %>
+      <%= text_field_tag 'email'%>
+      <br /> <br />
+
+      <%= label_tag 'Bio' %>
+      <%= text_area_tag 'bio'%>
+      <br /> <br />
+
+<%= submit_tag "Create Post" %>
+--!>
+
+<!--
+#FORM FOR............................................................................................
+<%= form_tag('/users', method: :submit) %>
+
+      <%= label_tag 'Username' %>
+      <%= text_field_tag 'username' %>
+      <br /> <br />
+
+      <%= label_tag 'Email' %>
+      <%= text_field_tag 'email'%>
+      <br /> <br />
+
+      <%= label_tag 'Bio' %>
+      <%= text_area_tag 'bio'%>
+      <br /> <br />
+
+<%= submit_tag "Create Post" %>
+--!>
