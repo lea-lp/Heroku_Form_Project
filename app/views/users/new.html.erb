@@ -27,23 +27,13 @@
       <br /> <br />
 
 <%= submit_tag "Create Post" %>
---!>
-
-<!--
 #FORM FOR............................................................................................
-<%= form_tag('/users', method: :submit) %>
 
-      <%= label_tag 'Username' %>
-      <%= text_field_tag 'username' %>
-      <br /> <br />
-
-      <%= label_tag 'Email' %>
-      <%= text_field_tag 'email'%>
-      <br /> <br />
-
-      <%= label_tag 'Bio' %>
-      <%= text_area_tag 'bio'%>
-      <br /> <br />
-
-<%= submit_tag "Create Post" %>
 --!>
+<%= form_for @new_user do |user| -%>
+Username :  <%= user.text_field :username %> <br>
+Email :  <%= user.text_field :email %><br>
+Bio :  <%= user.text_field :bio %><br>
+<%= user.submit %><br>
+
+<% end -%>
