@@ -1,24 +1,8 @@
-# README
+# Form Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Pair programming avec @Vano & @LeaLp
 
-Things you may want to cover:
+## Lien vers le site en ligne I Love Forms ! 
 
-* Ruby version
+https://i-really-love-forms.herokuapp.com/users
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
